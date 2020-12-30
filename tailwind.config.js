@@ -5,6 +5,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				dosis: ["Dosis"],
+				poppins: ["Poppins"],
 			},
 			animation: {
 				float: "float 3s infinite",
@@ -25,7 +26,7 @@ module.exports = {
 						animationTimingFunction: "ease-in-out",
 					},
 				},
-				float: {
+				refloat: {
 					"0%": {
 						transform: "translateY(-20px)",
 						animationTimingFunction: "ease-in-out",

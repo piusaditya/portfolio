@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
@@ -11213,6 +11215,10 @@ video {
 
 .font-dosis{
   font-family: Dosis;
+}
+
+.font-poppins{
+  font-family: Poppins;
 }
 
 .font-thin{
@@ -29118,6 +29124,23 @@ video {
 
 @keyframes float{
   0%{
+    transform: translateY(0px);
+    animation-timing-function: ease-in-out;
+  }
+
+  50%{
+    transform: translateY(-20px);
+    animation-timing-function: ease-in-out;
+  }
+
+  100%{
+    transform: translateY(0px);
+    animation-timing-function: ease-in-out;
+  }
+}
+
+@keyframes refloat{
+  0%{
     transform: translateY(-20px);
     animation-timing-function: ease-in-out;
   }
@@ -39835,6 +39858,10 @@ video {
 
   .sm\:font-dosis{
     font-family: Dosis;
+  }
+
+  .sm\:font-poppins{
+    font-family: Poppins;
   }
 
   .sm\:font-thin{
@@ -68399,6 +68426,10 @@ video {
     font-family: Dosis;
   }
 
+  .md\:font-poppins{
+    font-family: Poppins;
+  }
+
   .md\:font-thin{
     font-weight: 100;
   }
@@ -96959,6 +96990,10 @@ video {
 
   .lg\:font-dosis{
     font-family: Dosis;
+  }
+
+  .lg\:font-poppins{
+    font-family: Poppins;
   }
 
   .lg\:font-thin{
@@ -125523,6 +125558,10 @@ video {
     font-family: Dosis;
   }
 
+  .xl\:font-poppins{
+    font-family: Poppins;
+  }
+
   .xl\:font-thin{
     font-weight: 100;
   }
@@ -154083,6 +154122,10 @@ video {
 
   .\32xl\:font-dosis{
     font-family: Dosis;
+  }
+
+  .\32xl\:font-poppins{
+    font-family: Poppins;
   }
 
   .\32xl\:font-thin{
