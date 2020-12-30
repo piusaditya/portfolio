@@ -7,7 +7,7 @@ import Contact from "./component/Contact";
 function App() {
 	return (
 		//add prevent right click contextmenu onContextMenu={(e) => e.preventDefault()}
-		<div>
+		<div onContextMenu={(e) => e.preventDefault()}>
 			<Navigation />
 			<Header />
 			<Stack />

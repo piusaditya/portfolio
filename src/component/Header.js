@@ -19,6 +19,7 @@ export default function Header() {
 					<LazyLoadImage
 						src={content.header.img}
 						effect="blur"
+						alt="foto"
 						placeholderSrc={process.env.PUBLIC_URL + "/logo512.png"}
 					/>
 				</div>
